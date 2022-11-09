@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Layout*/
+.container {
+  background-image: url("background.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 20px 0;
+}
+
+.container--row {
+  margin: 0 auto;
+  width: 62%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 16px;
+  padding-top: 1px;
+}
+
+.row {
+  margin: auto;
+  width: 80%;
+}
+
+/*Header*/
+.logo--container {
+  margin: 0 auto;
+  width: 23%;
+  margin-top: 70px;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.header--title {
+  text-align: center;
+  font-size: 24px;
+  padding: 5px 0;
+  color: #00dd00;
+}
+
+/*Nav*/
+
+nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 8px;
+  background-color: #00dd00;
+}
+
+.menu--btn {
+  background-color: #efefef;
+  padding: 1px 3px;
+  margin: 0 3px;
+  font-size: 10px;
+  border: 1px solid #767676;
+}
+
+.menu--btn a {
+  color: #000;
+}
+
+/*Main*/
+
+.scooter--book {
+  padding: 15px 0;
+  color: #ffff;
+}
+
+.scooter--renter {
+  font-size: 18px;
+  font-weight: bold;
+  color: #dfe0dd;
+}
+
+.scooter--location {
+  padding: 6px 0;
+  font-size: 13px;
+  font-size: bold;
+  color: #dfe0dd;
+}
+
+.battery--status {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.midium--charge {
+  background-color: #f5b453;
+  width: 40%;
+}
+
+.full--charge {
+  background-color: #1ec31e;
+  width: 60%;
+}
+
+.low--charge {
+  background-color: #be4141;
+  width: 20%;
+}
